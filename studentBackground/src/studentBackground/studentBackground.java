@@ -57,13 +57,13 @@ public class studentBackground extends JFrame implements ActionListener{
                 jcbs[i].setBackground(Color.LIGHT_GRAY);
             } 
 
-            imgs[0] = new ImageIcon("Soklinda.jpg");
-            imgs[1] = new ImageIcon("Sathya.jpg");
-            imgs[2] = new ImageIcon("Kimlong.jpg");
-            imgs[3] = new ImageIcon("Bunleng.jpg");
-            imgs[4] = new ImageIcon("Kimhong.jpg");
-            imgs[5] = new ImageIcon("Pisal.jpg");
-            imgs[6] = new ImageIcon("Yut.jpg");
+            imgs[0] = new ImageIcon("studentBackground\\Soklinda.jpg");
+            imgs[1] = new ImageIcon("studentBackground\\Sathya.jpg");
+            imgs[2] = new ImageIcon("studentBackground\\Kimlong.jpg");
+            imgs[3] = new ImageIcon("studentBackground\\Bunleng.jpg");
+            imgs[4] = new ImageIcon("studentBackground\\Kimhong.jpg");
+            imgs[5] = new ImageIcon("studentBackground\\Pisal.jpg");
+            imgs[6] = new ImageIcon("studentBackground\\Yut.jpg");
 
             for(int i = 0; i<st.size(); i++){
                 lblImage[i]= new JLabel();
