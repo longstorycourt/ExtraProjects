@@ -55,7 +55,7 @@ public class groupGenerator{
         //*****TO-DO: lets not remove c1! so that we can regenerate *****
         k = newStudents.size();
         c2= (memberNumber/2);
-        // System.out.println(c2);
+        System.out.println(c2);
         for(int i = 0; i < groupNumber; i++){
             if(k >= memberNumber){
                 for(int j = 0; j < memberNumber; j++){
@@ -75,9 +75,9 @@ public class groupGenerator{
 
         last = groupNumber-1;
         k = group[last].size();
-        // System.out.println(group[last]);
-        // System.out.println(k);
-        if(group[last].size()<=c2){
+        System.out.println(group[last]);
+        System.out.println(k);
+        if(group[last].size() < c2){
             while(!group[last].isEmpty()){
                 for(int j = 0; j < k ; j++){
                     group[j].add(group[last].get(0));
